@@ -286,3 +286,18 @@ footer a {
         flex-direction: column;
     }
 }
+
+
+/* websit2 style */
+
+.banner {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner img {
+    width: 50%;
+    margin: 10px;
+}

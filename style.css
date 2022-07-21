@@ -77,12 +77,32 @@ h1 {
 }
 
 
+/*animation */
+
+header button:hover {
+    transform: translateX(30px);
+    transition: 2s;
+    background-color: orangered;
+    border: black;
+}
+
+.ball {
+    position: relative;
+    top: 15px;
+    transition: transform 3s ease-in 1.3s;
+}
+
+.animation:hover .ball {
+    transform: translate(300px, -50px);
+}
+
+
 /* content-section style */
 
 .site-link-bar {
     display: flex;
     flex-direction: column;
-    width: 20%;
+    width: 400px;
     height: 210px;
     background: #161616;
     border-radius: 10px;
@@ -196,7 +216,7 @@ footer a {
         grid-template-rows: repeat(3, 1fr);
         background: white;
         width: 100%;
-        height: 60px;
+        height: 100px;
         display: inline;
         text-align: center;
     }
